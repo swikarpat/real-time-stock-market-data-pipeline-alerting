@@ -1,0 +1,28 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+out/
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Spark temp files
+/tmp/
