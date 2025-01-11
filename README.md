@@ -1,6 +1,6 @@
 # Real-Time Stock Market Data Pipeline and Alerting System (AWS)
 
-This project simulates a real-time stock market data pipeline that ingests, processes, and analyzes stock market data to generate alerts based on user-defined criteria. It's designed to be a simplified, yet relatively robust, example of a system commonly used in financial institutions for algorithmic trading, risk management, and market surveillance.
+This project simulates a real-time stock market data pipeline that ingests, processes, and analyzes stock market data to generate alerts based on user-defined criteria. It's designed to be a simplified, yet relatively robust, system commonly used in financial institutions for algorithmic trading, risk management, and market surveillance.
 
 This version of the project has been enhanced to leverage various AWS services, making it more scalable, resilient, and representative of a production-like environment.
 
