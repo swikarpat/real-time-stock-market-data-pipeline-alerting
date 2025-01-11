@@ -1,15 +1,15 @@
-                                 +-----------------+
-                                 |  Data Simulator |
-                                 |   (simulator.py)|
-                                 +--------+--------+
-                                          | (Generates Stock Data)
-                                          v
-                                 +--------+--------+    +---------------------+
-                                 |   Amazon MSK    |----| AWS Lambda (Alert   |
-                                 | (Kafka Brokers) |    | Consumer)           |
-                                 +--------+--------+    +---------+-----------+
-                                          ^                          | (Consumes Alerts)
-                                          |                          v
+                                   +-----------------+
+                                   |  Data Simulator |
+                                   |   (simulator.py)|
+                                   +--------+--------+
+                                            | (Generates Stock Data)
+                                            v
+                                   +--------+--------+    +---------------------+
+                                   |   Amazon MSK    |----| AWS Lambda (Alert   |
+                                   | (Kafka Brokers) |    | Consumer)           |
+                                   +--------+--------+    +---------+-----------+
+                                            ^                          | (Consumes Alerts)
+                                            |                          v
        +-----------------+----------+       |       +-----------------+-----------+
        |                 |          |       |       |  SNS/SES/Other          |
        |                 |          |       |       |  Notification Service   |
